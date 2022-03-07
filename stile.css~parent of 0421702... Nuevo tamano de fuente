@@ -1,0 +1,119 @@
+/*----Default----*/
+
+*{
+font-family: 'Montserrat', sans-serif;
+color: #444;
+text-align: center;
+}
+body {
+background: #ffe;
+}
+.fondo {
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index:-1;
+object-fit: cover;
+opacity: 0.1;
+}
+header {
+background-color: #edff6e96;
+height: 6vw;
+width: 100%;
+position: fixed;
+top: 0;
+transform: translateX(97%);
+z-index: 1000;
+transition: 0.5s;
+}
+header:hover{
+transform: translateX(0%);
+}
+#menu{
+margin-top: 1.3vw;
+margin-left: 1vw;
+text-shadow: 0px 0px 15px #bcbf00;
+font-size: 3vw;
+color: #fff;
+position: absolute;
+left: 0;
+}
+.cablis{
+position: relative;
+display: inline-block;
+height: 100%;
+font-size: 2.5vw;
+margin-top: 1.5vw;
+margin-left: 6vw;
+}
+.cablis a{
+text-decoration: none;
+text-shadow: 0px 0px 15px #bcbf00;
+color: white;
+padding: 1.50vw;
+height: 100%;
+transition: background 0.3s;
+}
+.cablis a:hover{
+background: #e0f15e;
+}
+/*----codigo----*/
+
+.titulo{
+margin-top: 10%;
+}
+.titulo h1 {
+font-size: 5vw;
+color: #ed4;
+}
+h2{
+margin-bottom: 3vw;
+}
+h3{
+margin: 0;
+}
+.cabecera-tienda{
+margin-top:10vh;
+margin-bottom:0 ;
+}
+.pie-de-pagina{
+margin-top: 4vw;
+background: #edff64;
+}
+.TablaDeProductos{
+background: #ddd6;
+}
+.Titulos{
+display: grid;
+grid-template-rows: 10vh;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 1vw;
+}
+.Producto{
+padding: 1vw 0vw 1vw 0vw;
+display: grid;
+grid-template-rows: 30vh;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 1vw;
+}
+.TablaDeProductos b{
+font-size: 2.2vw;
+margin: auto;
+}
+.ContImagen{
+border-radius: 10%;
+background: #fff;
+overflow: hidden;
+margin-left: 5vw;
+width: 100%;
+height: 100%;
+}
+.ImagenProducto{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
