@@ -30,6 +30,9 @@ transform: translateX(97%);
 z-index: 1000;
 transition: 0.5s;
 }
+@media only screen and (max-width: 800px){
+	header{display: none;}
+}
 header:hover{
 transform: translateX(0%);
 }
@@ -69,9 +72,6 @@ margin-top: 10%;
 .titulo h1 {
 <<<<<<< HEAD
 font-size: 5vw;
-=======
-font-size: 5vh;
->>>>>>> parent of a7e6fa3... Reinicio
 color: #ed4;
 }
 h2{
